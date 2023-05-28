@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, Text, Image, TouchableOpacity, Linking } from "react-native";
 import styles from "./footer.style";
+import { icons } from "../../../constants";
 
 const Footer = ({ url }) => {
   return (

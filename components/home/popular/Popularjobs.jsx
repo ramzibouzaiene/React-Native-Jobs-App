@@ -15,7 +15,7 @@ import useFetch from "../../../hook/useFetch";
 const Popularjobs = () => {
   const router = useRouter();
   const { data, isLoading, error } = useFetch("search", {
-    query: "react developer",
+    query: "React developer",
     num_page: 1,
   });
   const [selectedJob, setSelectedJob] = useState();

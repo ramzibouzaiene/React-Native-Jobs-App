@@ -15,7 +15,7 @@ import {
   JobTabs,
   ScreenHeaderBtn,
   Specifics,
-} from "../components";
+} from "../../components";
 import { COLORS, icons, SIZES } from "../../constants";
 import useFetch from "../../hook/useFetch";
 
